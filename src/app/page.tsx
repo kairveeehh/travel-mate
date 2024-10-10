@@ -305,9 +305,9 @@ export default function TravelPlanner() {
             <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">TravelMate</span>
           </div>
           <nav className="hidden md:flex space-x-4">
-            <Link href="#" className="text-gray-500 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Home</Link>
-            <Link href="#" className="text-gray-500 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">About</Link>
-            <Link href="#" className="text-gray-500 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Contact</Link>
+            <Link href="/contact" className="text-gray-500 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Home</Link>
+            <Link href="/about" className="text-gray-500 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">About</Link>
+            <Link href="/contact" className="text-gray-500 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Contact</Link>
           </nav>
           <div className="flex items-center">
             <Button
